@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .admission_body {
+    margin-left: 34%;
+    margin-right: 10%;
+    margin-top: 8%;
+    justify-items: center;
+    width: 36%;
+    align-items: center;
+    padding: 20px;
+  }
+  .admissioncontainer {
+    width: 100%;
+    border: 1.5px solid #808080;
+    border-radius: 5px;
+    box-shadow: inset -2px 2px 2px white;
+    margin-bottom: 20px;
+  }
+  .logintitle {
+    line-height: 40px;
+    background: #f8f8f8;
+    text-align: center;
+    padding: 6px;
+    border-radius: 5px 5px 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3e9bad;
+    border-bottom: 1px solid #808080;
+  }
+  .enquiry_data{
+      font-size: 17px;
+      color: #20899e;
+  }
+  .main-user-info {
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .user-input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .user-input-box label {
+    width: 95%;
+    color: #686868;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .user-input-box .astrix_sign {
+    color: red;
+  }
+  .user-input-box input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+    background-color: #f8f8f8;
+  }
+  .user-input-box select {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+    background-color: #f8f8f8;
+  }
+  .user-input-box textarea{
+    width: 100%;
+    border: 1px solid grey;
+    padding: 10px 10px;
+    outline: none;
+    background-color: #f8f8f8;
+  }
+  .submit_btn input{
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #4fc4e8;
+  }
+  .submit_btn input:hover{
+    background: #1576bf;
+  }
+  .form-submit-btn {
+    margin-top: 40px;
+  }
+  @media (max-width: 1237px) {
+    .admission_body {
+      margin-left: 30%;
+      margin-right: 30%;
+      width: 50%;
+    }
+    .main-user-info {
+      margin-left: 15px;
+    }
+    .user-input-box {
+      margin-bottom: 12px;
+      width: 100%;
+      align-items: center;
+    }
+    .gender-category {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .main-user-info {
+      overflow: auto;
+    }
+    .main-user-info::-webkit-scrollbar {
+      width: 0;
+    }
+    
+  }
+  @media (max-width: 767px) {
+    .admission_body {
+      margin: 0;
+      width: 100%;
+    }
+    
+  }

@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.science_container{
+    margin-top: 6%;
+    padding: 30px;
+    font-family: times new roman;
+}
+.science_img{
+    float: left;
+    margin-top: 10px;
+    width: 460px;
+    height: 600px;
+    padding: 0 10px 0 0;
+}
+.science_head h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #FFA500;
+    text-transform: uppercase;
+}
+.science_head p{
+    font-size: 18px;
+    font-weight: 100;
+    color: #8d8d8d;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.science_text{
+    text-align: justify;
+    margin-left: 32%;
+}
+.science_text2{
+    text-align: justify;
+}
+.science_text h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: #FFA500;
+    text-transform: uppercase;
+  
+}
+.science_text p{
+    font-size: 18px;
+    font-weight: 100;
+    color: #8d8d8d;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.science_text h2{
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #FFA500;
+    text-transform: uppercase;
+}
+.science_text h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #FFA500;
+    text-transform: uppercase;
+}
+.science_text2 h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #FFA500;
+    text-transform: uppercase;
+}
+.science_text2 p{
+    font-size: 18px;
+    font-weight: 100;
+    color: #8d8d8d;
+    letter-spacing: 1px;
+
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 1268px){
+    .science_text{
+        margin-left: 0%;
+    }
+    .science_img{
+        width: 300px;
+        width: 400px;
+        height: 520px;
+    }
+}
+@media screen and (max-width: 768px){
+    .science_img{
+        height: 420px;
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 568px){
+    .science_img{
+        width: 450px;
+        height: 480px;
+        margin-bottom: 20px;
+    }
+    .science_text h1{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+}
